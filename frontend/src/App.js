@@ -132,7 +132,7 @@ React.useEffect(() => {
         <Route exact path = "/password/forgot" element={<ForgotPassword />} />
         <Route exact path = "/password/reset/:token" element={<ResetPassword />} />
         <Route exact path = "/login" element={<LoginSignUp />} />
-        <Route exact path = "/cart" element={<Cart />} />
+        <Route exact path = "/cart" element={<Cart />} /> 
         <Route path = '*' element={<NotFound />}/>
         </Routes>
         
